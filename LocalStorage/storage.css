@@ -1,0 +1,33 @@
+body {
+    background-blend-mode: color-burn;
+    background-color: rgb(27, 192, 55);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(189, 55, 37);
+}
+
+main {
+    text-align: center;
+    margin: auto;
+    
+}
+
+.storage {
+    border-radius: 7px;
+    box-shadow: 0px 0px 13px 0px rgb(107, 105, 105);
+    background-color: rgb(221, 235, 233);
+    border: solid;
+    border-color: rgb(100, 90, 42);
+    border-width: 1px;
+    padding: 10px;
+}
+
+#settings {
+    border-radius: 7px;
+    box-shadow: 0px 0px 13px 0px rgb(107, 105, 105);
+    background-color: rgb(221, 235, 233);
+    border: solid;
+    border-color: rgb(100, 90, 42);
+    border-width: 1px;
+    height: 100px;
+    padding-left: 5px;
+}
