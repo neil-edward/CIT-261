@@ -2,48 +2,40 @@ div {
     width: 100px;
     height: 50px;
     font-weight: bold;
+
     position: relative;
-    animation-fill-mode: forwards;
+    
+    
 
   }
 
-
+p{
+    position: absolute;
+}
 
 #div1 {
     background-color: yellowgreen;
-
-    
     animation-timing-function: linear;
+    animation-fill-mode: forwards;
 }
+
+
+  
 #div2 {
     background-color: red;
 
     
-    animation-timing-function: ease;
-}
-#div3 {
-    background-color: brown;
-    
-    
-    animation-timing-function: ease-in;
-}
-#div4 {
-    background-color: palevioletred;
-    
-    
-    animation-timing-function: ease-out;
-}
-#div5 {
-    background-color: blue;
-    
-    
     animation-timing-function: linear;
 }
 
-#div5:hover {
-    animation-duration: 7;
+
+@keyframes move {
+    from {left: 0px;}
+    to {left: 2000px;}
 }
 
-@keyframes mymove {
+@keyframes peek {
     from {left: 0px;}
-    to {left: 500px;}
+    to {left: 100px;}
+
+}
