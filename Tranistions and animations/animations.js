@@ -2,7 +2,7 @@
 function peek() {
 
   var a = document.getElementById("div1");
-  a.style.animation = "peek 2s";
+  a.style.animation = "peek 2s forwards 0.5s 1";
   
   
 }
