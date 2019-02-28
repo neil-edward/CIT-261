@@ -1,0 +1,22 @@
+[
+        
+        {
+                "name"  : "David Bowie", 
+                "gender": "Male" ,
+                "age"   : 0
+        
+        },
+        
+        {
+                "name"  : "Red Ranger", 
+                "gender": "Male" ,
+                "age"   : 88
+        
+        },
+        {
+                "name"  : "Rianna", 
+                "gender": "Female" ,
+                "age"   : 22
+        
+        }
+]

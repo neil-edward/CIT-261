@@ -1,0 +1,49 @@
+div {
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    position: relative;
+    animation-fill-mode: forwards;
+
+  }
+
+
+
+#div1 {
+    background-color: yellowgreen;
+
+    
+    animation-timing-function: linear;
+}
+#div2 {
+    background-color: red;
+
+    
+    animation-timing-function: ease;
+}
+#div3 {
+    background-color: brown;
+    
+    
+    animation-timing-function: ease-in;
+}
+#div4 {
+    background-color: palevioletred;
+    
+    
+    animation-timing-function: ease-out;
+}
+#div5 {
+    background-color: blue;
+    
+    
+    animation-timing-function: linear;
+}
+
+#div5:hover {
+    animation-duration: 7;
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 500px;}

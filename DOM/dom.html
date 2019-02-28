@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>DOM manipulation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="dom.js"></script>
+    
+  </head>
+
+  <body>
+    
+    
+    <p>Your posts go here!</p>
+    <br>
+        <div id= "posts">
+            
+        </div>
+        
+        <div id="create">
+            <p>Enter You post here</p>
+            <textarea id="postInput" rows="4" cols="40"> </textarea>
+            <br>
+            <button onclick="makePost()">Post!</button>
+
+        </div>
+
+
+        <div id = "insertBefore">
+            <button onclick="makeSticky()">Stickys Post</button>
+        </div>
+
+        <div id= "remove">
+            <br>
+            <button onclick="removeLastPost()">Remove sticky</button>
+
+              
+
+        </div>
+
+  </body>
+</html>
