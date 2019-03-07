@@ -13,6 +13,7 @@
     <h2>CIT 261 Assignment Portal</h2>
             <ul>
                 <li>#1: <a href="JavaScript/javascripts.html">JavaScript</a></li>
+            </ul>
                 
 
   </body>
