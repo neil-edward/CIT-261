@@ -13,6 +13,18 @@
     <h2>CIT 261 Assignment Portal</h2>
             <ul>
                 <li>#1: <a href="JavaScript/javascripts.html">JavaScript</a></li>
+                <li>#2: <a href="Objects/objects.html">JavaScript Objects</a></li>
+                <li>#3: <a href="Json/JSON.html">JSON</a></li>
+                <li>#4: <a href="AJAX.ajax.html">Ajax</a></li>
+                <li>#5: <a href="LocalStorage/storage.html">Local Storage</a></li>
+                <li>#6: <a href="DOM/dom.html">DOM</a></li>
+                <li>#7: <a href="Maniuplate CSS with JS/manipulate.html">JavaScript</a></li>
+                <li>#8: <a href="Tranistions and animations/animations.html">JavaScript</a></li>
+                <li>#9: <a href="JS Events/jsevents.html">JavaScript</a></li>
+                <li>#10: <a href="HTML5/html5.html">HTML5</a></li>
+                <li>#11: <a href="#">CSS3 Animation Libary</a></li>
+                <li>#12: <a href="#">CSS3 Animation Libary</a></li>
+                <li>#13: <a href="#">CSS3 Animation Libary</a></li>
             </ul>
                 
 
