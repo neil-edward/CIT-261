@@ -21,6 +21,8 @@ document.getElementById("wearingBottom").addEventListener("click", getBottom);
 
 document.getElementById("outfitDesc").addEventListener("click", getOutfitDesc);
 
+document.getElementById("newOutfit").addEventListener("click", newOutfit);
+
 
 function getTop() {
     document.getElementById("answer").innerHTML = "A " + myOutfit.topColor + " " + myOutfit.top;
@@ -32,4 +34,16 @@ function getTop() {
 
   function getOutfitDesc() {
     document.getElementById("answer").innerHTML = myOutfit.desc();
+  }
+
+
+  function newOutfit(){
+    var thatOutfit = Object.create(Outfit.prototype);
+    thatOutfit.owner = "Sally"
+    thatOutfit.top =  "Sweater"
+    thatOutfit.bottom = "Shorts"
+    thatOutfit.topColor ="Green"
+    thatOutfit.bottomColor = "Purple"
+
+    document.getElementById("answer").innerHTML = thatOutfit.desc();
   }
