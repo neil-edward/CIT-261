@@ -11,6 +11,10 @@ function sum(){
    
 }
 
+function parameter(num) {
+    document.getElementById("parameter").innerHTML= num;
+}
+
 function array(){
     var shoppingList = ["Milk", "Eggs","Flour","Butter"];
     var index = parseFloat(itemCheck.value);
