@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HTML5</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+  </head>
+
+  <body>
+    <div id = "audio">
+        <audio controls>
+            <source src="audio.mp3" type ="audio/mpeg">
+            <source src="audio.ogg" type = "audio/ogg">
+            Browser (Somehow) does not support HTML5 audio
+        </audio>
+
+    </div>
+
+    <div  id = "video">
+        <br>
+        <video width="300" height="300" controls>
+            <source src="video.mp4" type ="video/mp4">
+            <source src="video.ogg" type = "video/ogg">
+            Browser does not support HTML5 video
+        </video>
+    </div>
+
+    <div id = "canvas">
+        <canvas id="myCanvas" width="300" height="300" style="border:solid black 1px;">
+            Brower does not support
+        </canvas>
+
+        <script>
+            var canvas = document.getElementById("myCanvas");
+            var x = canvas.getContext("2d");
+            x.moveTo(0,0);
+            x.lineTo(150,150);
+            x.stroke();
+            var z = canvas.getContext("2d");
+            z.moveTo(300,0);
+            z.lineTo(150,150);
+            z.stroke();
+        </script>
+        
+        
+    </div>
+    
+  </body>
+</html>

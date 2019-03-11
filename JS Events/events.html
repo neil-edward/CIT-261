@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JS Events</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">>
+    
+  </head>
+
+  <body>
+    <h2>JS Events</h2>
+    <button onclick = "document.getElementById('one').innerHTML = 'Some Text'">Add some text</button>
+    <span id="one"></span>
+    <br>
+
+    Copy input on change
+    <input type="text" onchange="document.getElementById('two').innerHTML = this.value">
+    <span id = "two"></span>
+
+    <br>
+    <br>
+    <span id="three">Change Size on mouse over and mouse off</span>
+    
+    <h2>Mobile Events</h2>
+        <div id="four" width="300" height="300" style="border:solid black 2px;">
+            <h1>Box</h1>
+            <p id = "five"></p>
+        </div>
+
+
+        <script>
+            document.getElementById("four").ontouchstart = function() {touchStart()};
+
+            document.getElementById("four").ontouchmove = function() {touchMove()};
+
+            document.getElementById("four").ontouchend = function() {touchEnd()};
+
+            document.getElementById("four").ontouchcancel = function() {touchCancel()};
+
+
+            document.getElementById("three").onmouseover = function() {sizeUp()};
+
+            document.getElementById("three").onmouseleave = function() {sizeDown()};
+
+            function sizeUp() {
+                document.getElementById("three").style.fontSize = "xx-large";
+            }
+            
+            function sizeDown() {
+                document.getElementById("three").style.fontSize = "initial";
+            }
+
+            function touchStart(){
+                document.getElementById("five").innerHTML = "Touch Started";
+            }
+
+            function touchMove(){
+                document.getElementById("five").innerHTML = "Touch Moving";
+            }
+
+            function touchEnd(){
+                document.getElementById("five").innerHTML = "Touch Ended";
+            }
+
+            function touchCancel(){
+                document.getElementById("five").innerHTML = "Touch Interupted";
+            }
+        </script>
+
+  </body>
+</html>
