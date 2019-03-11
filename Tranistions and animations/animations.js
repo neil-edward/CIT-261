@@ -16,3 +16,7 @@ function shy() {
 
   document.getElementById("shyGuy").innerHTML = "It's feeling better now";
 }
+
+function spin() {
+  document.getElementById("transform").style.transform = "rotate(0deg)"; 
+}
