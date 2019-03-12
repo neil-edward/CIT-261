@@ -22,7 +22,6 @@ function makeSticky(){
 }
 
 function removeLastPost(){
-    
     var sticky = document.getElementById("posts");
     sticky.removeChild(sticky.lastChild);    
 }
