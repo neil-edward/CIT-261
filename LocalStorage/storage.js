@@ -18,6 +18,7 @@ function submit() {
         user1.time = document.forms['time']['input'].value;
         user1.birth = document.forms['birth']['input'].value;
 
+        
         localStorage.setItem("color", user1.color);
         localStorage.setItem("time", user1.time);
         localStorage.birth = user1.birth
