@@ -12,6 +12,7 @@
 
     <h2>CIT 261 Assignment Portal</h2>
             <ul>
+                <li>#   <a href="Final/final.html">Final</a></li>
                 <li>#1: <a href="JavaScript/javascripts.html">JavaScript</a></li>
                 <li>#2: <a href="Objects/objects.html">JavaScript Objects</a></li>
                 <li>#3: <a href="Json/JSON.html">JSON</a></li>

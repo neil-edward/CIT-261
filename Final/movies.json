@@ -1,0 +1,254 @@
+{
+    "genre": [
+      {
+        "name": [
+          "Who left the fridge open?",
+          "Green Machine",
+          "The High Jump",
+          "Try Hard",
+          "Yolo",
+          "Lambo III",
+          "Alien VS Printers",
+          "Lord of the Yellow Bands",
+          "Crime Feast",
+          "Gun Slope"
+        ],
+        "release": [
+          "2011",
+          "2001",
+          "1994",
+          "1967",
+          "1841",
+          "2005",
+          "2018",
+          "2015",
+          "1994",
+          "1999"
+        ],
+        "rating": [
+          "PG",
+          "PG13",
+          "R",
+          "G",
+          "PG13",
+          "R",
+          "PG",
+          "PG",
+          "G",
+          "R"
+        ],
+        "summary": [
+          "This is a movie 1",
+          "This is a movie 2",
+          "This is a movie 3",
+          "This is a movie 4",
+          "This is a movie 5",
+          "This is a movie 6",
+          "This is a movie 7",
+          "This is a movie 8",
+          "This is a movie 9",
+          "This is a movie 10"
+        ]
+      },
+      {
+        "name": [
+          "Madea's Angry Again",
+          "Eddie Murphy",
+          "Shrek 5",
+          "Adam Soldler",
+          "A Walk to Remember",
+          "Vesus",
+          "Who's if our President?",
+          "Call of Cathulu",
+          "A.I Channel",
+          "Sponge Bob"
+        ],
+        "release": [
+          "2001",
+          "2002",
+          "2005",
+          "1994",
+          "2613",
+          "1964",
+          "2014",
+          "2016",
+          "2012",
+          "2007"
+        ],
+        "rating": [
+          "PG",
+          "PG13",
+          "PG13",
+          "PG",
+          "PG13",
+          "PG",
+          "PG",
+          "PG",
+          "PG13",
+          "PG"
+        ],
+        "summary": [
+          "This is a movie 1",
+          "This is a movie 2",
+          "This is a movie 3",
+          "This is a movie 4",
+          "This is a movie 5",
+          "This is a movie 6",
+          "This is a movie 7",
+          "This is a movie 8",
+          "This is a movie 9",
+          "This is a movie 10"
+        ]
+      },
+      {
+        "name": [
+          "Titanio",
+          "The Dark",
+          "The Notebook Paper",
+          "The Lake",
+          "Cabbies Summer",
+          "The Time Traveler's Uncle",
+          "Hellena",
+          "Brutus",
+          "Invictus",
+          "The Longest Guard"
+        ],
+        "release": [
+          "1995",
+          "2005",
+          "2012",
+          "2014",
+          "2014",
+          "2016",
+          "2006",
+          "1999",
+          "1999",
+          "2000"
+        ],
+        "rating": [
+          "PG13",
+          "PG13",
+          "PG",
+          "G",
+          "PG",
+          "PG",
+          "PG",
+          "PG",
+          "PG13",
+          "R"
+        ],
+        "summary": [
+          "This is a movie 1",
+          "This is a movie 2",
+          "This is a movie 3",
+          "This is a movie 4",
+          "This is a movie 5",
+          "This is a movie 6",
+          "This is a movie 7",
+          "This is a movie 8",
+          "This is a movie 9",
+          "This is a movie 10"
+        ]
+      },
+      {
+        "name": [
+          "SpongeBob 1",
+          "SpongeBob 2",
+          "SpongeBob 3",
+          "SpongeBob 4",
+          "SpongeBob 5",
+          "SpongeBob 6",
+          "SpongeBob 7",
+          "SpongeBob 8",
+          "SpongeBob 9",
+          "SpongeBob 10"
+        ],
+        "release": [
+          "2001",
+          "2002",
+          "2003",
+          "2004",
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010"
+        ],
+        "rating": [
+          "PG",
+          "PG",
+          "PG",
+          "PG",
+          "PG",
+          "PG",
+          "PG",
+          "PG",
+          "R",
+          "PG"
+        ],
+        "summary": [
+          "This is a movie 1",
+          "This is a movie 2",
+          "This is a movie 3",
+          "This is a movie 4",
+          "This is a movie 5",
+          "This is a movie 6",
+          "This is a movie 7",
+          "This is a movie 8",
+          "This is a movie 9",
+          "This is a movie 10"
+        ]
+      },
+      {
+        "name": [
+          "Death Land",
+          "Aliens in my House",
+          "Spider in My Room",
+          "Time to meet her parents",
+          "Justin Bieber",
+          "Freddie Cooker",
+          "Jason's Revenge",
+          "The Dark Pie ",
+          "This is us",
+          "Grean Meanies"
+        ],
+        "release": [
+          "1995",
+          "2005",
+          "2012",
+          "2014",
+          "2014",
+          "2016",
+          "2007",
+          "2014",
+          "1979",
+          "1947"
+        ],
+        "rating": [
+            "PG",
+            "PG13",
+            "R",
+            "G",
+            "PG13",
+            "R",
+            "PG",
+            "PG",
+            "G",
+            "R"
+        ],
+        "summary": [
+          "This is a movie 1",
+          "This is a movie 2",
+          "This is a movie 3",
+          "This is a movie 4",
+          "This is a movie 5",
+          "This is a movie 6",
+          "This is a movie 7",
+          "This is a movie 8",
+          "This is a movie 9",
+          "This is a movie 10"
+        ]
+      }
+    ]
+  }
